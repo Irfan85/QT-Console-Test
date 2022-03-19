@@ -1,0 +1,12 @@
+Casting
+--------
+Use qobject_cast to cast between QObject derivatives. It's similar to dynamic_cast but works without RTTI
+and so much faster.
+
+QVector and QList
+-----------------
+In the past they were different but in modern QT, QVector is an alias for QList
+
+qDeleteAll
+----------
+It's a function provided by QT to remove a collection from memory
